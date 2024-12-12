@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #030728;
+}
+
+#root {
+  width: 100%;
+}
+
+.converter-container {
+  max-width: 410px;
+  margin: 0 auto;
+  padding: 40px 30px 50px;
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+  background: rgba(2, 7, 40, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.converter-container h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: 500;
+  min-height: 48px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.currency-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+select {
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+select option {
+  color: #000;
+}
+
+.swap-button {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.swap-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+
+button {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #000;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.currency-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.currency-table th {
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.192);
+}
+
