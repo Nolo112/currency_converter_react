@@ -127,6 +127,12 @@ h2 {
   margin-top: 20px;
 }
 
+h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .currency-table {
   width: 100%;
   margin-top: 20px;
